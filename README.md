@@ -10,13 +10,21 @@ changes are to `ue4ss/Mods/mods.txt` and `mods.json`: the built-in example mods
 are switched off. Most of them are cheats or developer tools (cheat manager,
 console, split screen, line trace, keybinds).
 
-## Install
+## Install with Mod Loader
 
-Download `UE4SS-RSDragonwilds.zip` from the [Releases](../../releases) page and
-extract it into the game's Win64 folder. In Steam, right-click RuneScape:
-Dragonwilds > Manage > Browse local files, then open
-`RSDragonwilds\Binaries\Win64`. `dwmapi.dll` and the `ue4ss` folder should sit
-next to `RSDragonwilds-Win64-Shipping.exe`.
+In [Mod Loader](https://github.com/MichaelRyan2319/ModLoader), add RuneScape:
+Dragonwilds, then add the mod `MichaelRyan2319/RSDragonwilds-UE4SS`, before any
+Lua mod that needs it. Mod Loader 1.0.1 or later sets the game's mods folder to
+its inner `RSDragonwilds` folder (the one with `Binaries` and `Content` in it).
+If you added the game with an older version, edit it and choose that folder.
+
+## Install by hand
+
+Download `UE4SS-RSDragonwilds.zip` from the [Releases](../../releases) page. In
+Steam, right-click RuneScape: Dragonwilds > Manage > Browse local files, then
+open the `RSDragonwilds` folder (the one with `Binaries` and `Content` in it)
+and extract the zip there. `dwmapi.dll` and the `ue4ss` folder end up in
+`Binaries\Win64`, next to `RSDragonwilds-Win64-Shipping.exe`.
 
 The repo contains the same files, laid out the same way.
 
